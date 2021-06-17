@@ -32,18 +32,3 @@ module.exports = (client) => {
 
     console.log(table.toString());
 }
-
-
-/**
- * Command Template (* = required)
- * module.exports = {
- *  name: "Command name", *
- *  aliases: ["array", "of", "aliases"]
- *  category: "Category name", *
- *  description: "Command description"
- *  usage: "[args input]",
- *  run: (bot, message, args) => { *
- *      The code in here to execute
- *  }
- * }
- */
